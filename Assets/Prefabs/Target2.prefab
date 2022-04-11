@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 8884469636413382930}
   - component: {fileID: 7405228998780866154}
   - component: {fileID: 1512736681095598851}
+  - component: {fileID: -3872676394647197240}
   m_Layer: 0
   m_Name: Target2
-  m_TagString: Untagged
+  m_TagString: GoldTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7382176453767064849}
-  m_LocalRotation: {x: -0.16497369, y: 0.15598021, z: -0.6690823, w: 0.7076601}
+  m_LocalRotation: {x: -0.69858074, y: 0.13811398, z: -0.107342586, w: 0.69382066}
   m_LocalPosition: {x: -19.228424, y: 3.424421, z: 25.27841}
-  m_LocalScale: {x: 2, y: 0.025272, z: 2}
+  m_LocalScale: {x: 1, y: 0.025272, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -1.419, y: 26.21, z: -87.12}
+  m_LocalEulerAnglesHint: {x: -70.006, y: 92.377, z: -89.845}
 --- !u!33 &8884469636413382930
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -96,3 +97,15 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &-3872676394647197240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7382176453767064849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf759467297d7c48b9b9af21531fb34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

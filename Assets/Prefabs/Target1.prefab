@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 8404175806058291623}
   - component: {fileID: 7724267514424127885}
   - component: {fileID: 6522355651048724806}
+  - component: {fileID: -7150374000316485115}
   m_Layer: 0
   m_Name: Target1
-  m_TagString: Untagged
+  m_TagString: RedTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5095161826743931953}
-  m_LocalRotation: {x: -0.48948207, y: -0.01634851, z: -0.44552824, w: 0.7494296}
+  m_LocalRotation: {x: -0.69858074, y: 0.13811398, z: -0.107342586, w: 0.69382066}
   m_LocalPosition: {x: -19.228424, y: 3.424421, z: 25.27841}
-  m_LocalScale: {x: 2, y: 0.028337, z: 2}
+  m_LocalScale: {x: 1, y: 0.028337, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -48.437, y: 38.351, z: -79.243}
+  m_LocalEulerAnglesHint: {x: -70.006, y: 92.377, z: -89.845}
 --- !u!33 &8404175806058291623
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -96,3 +97,15 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &-7150374000316485115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5095161826743931953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf759467297d7c48b9b9af21531fb34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
