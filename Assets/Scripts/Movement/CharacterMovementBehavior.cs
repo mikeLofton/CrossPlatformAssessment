@@ -29,8 +29,16 @@ public class CharacterMovementBehavior : MovementBehavior
         set { _movesRight = value; }
     }
 
+    private void Start()
+    {
+        float speedNum = Random.Range(0.5f, 11.0f);
+        Speed = speedNum;
+    }
+
     public override void Update()
     {
+        
+
         if (MovesLeft)
         {
             Vector3 direction = Vector3.left;

@@ -5,7 +5,7 @@ using UnityEngine;
 public class DeathBehavior : MonoBehaviour
 {
     private float _currentLifeTime;
-    private float _lifetime = 7.0f;
+    private float _lifetime = 10.0f;
 
     private void OnMouseDown()
     {
