@@ -36,8 +36,7 @@ public class CharacterMovementBehavior : MovementBehavior
             Vector3 direction = Vector3.left;
             Velocity = direction.normalized * Speed;
         }
-
-        if (MovesRight)
+        else if (MovesRight)
         {
             Vector3 direction = Vector3.right;
             Velocity = direction.normalized * Speed;

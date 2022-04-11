@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2403633323060303418}
   - component: {fileID: 8937123321817781765}
   - component: {fileID: -6851399074608038904}
+  - component: {fileID: 5284756519648694270}
   m_Layer: 0
   m_Name: Buddy1
   m_TagString: FirstBuddy
@@ -108,3 +109,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf759467297d7c48b9b9af21531fb34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5284756519648694270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009008791177430111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170f7a956700d064cb62a4f0ea64e478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 2
+  _movesLeft: 0
+  _movesRight: 1

@@ -4,8 +4,19 @@ using UnityEngine;
 
 public class DeathBehavior : MonoBehaviour
 {
+    private float _currentLifeTime;
+    private float _lifetime = 7.0f;
+
     private void OnMouseDown()
     {
         Destroy(gameObject);
+    }
+
+    private void Update()
+    {
+        _currentLifeTime += Time.deltaTime;
+
+        if (_currentLifeTime >= _lifetime)
+            Destroy(gameObject);
     }
 }

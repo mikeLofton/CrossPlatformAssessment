@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7724267514424127885}
   - component: {fileID: 6522355651048724806}
   - component: {fileID: -7150374000316485115}
+  - component: {fileID: 6780300555112704083}
   m_Layer: 0
   m_Name: Target1
   m_TagString: RedTarget
@@ -109,3 +110,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf759467297d7c48b9b9af21531fb34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6780300555112704083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5095161826743931953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170f7a956700d064cb62a4f0ea64e478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 2
+  _movesLeft: 0
+  _movesRight: 1
