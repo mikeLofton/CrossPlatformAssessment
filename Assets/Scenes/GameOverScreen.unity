@@ -336,6 +336,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: THATS IT!
       objectReference: {fileID: 0}
+    - target: {fileID: 1321860308680400157, guid: ab46244750fc6124eaeb6475edc997ee, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7.477356
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab46244750fc6124eaeb6475edc997ee, type: 3}
 --- !u!1 &1320325085
@@ -572,7 +576,6 @@ GameObject:
   - component: {fileID: 1768313653}
   - component: {fileID: 1768313652}
   - component: {fileID: 1768313651}
-  - component: {fileID: 1768313654}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -645,20 +648,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1768313654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1768313650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7158e0b42359624bad0434c0073cb27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _referenceAspectRatio: {x: 9, y: 16}
-  _zoomScale: {x: 1, y: 1, z: 1}
 --- !u!114 &1862243012 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1321860308589867639, guid: ab46244750fc6124eaeb6475edc997ee, type: 3}
