@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimerBehavior : MonoBehaviour
 {
@@ -29,12 +30,13 @@ public class TimerBehavior : MonoBehaviour
             {
                 _totalTime = 0;
                 _timerIsRunning = false;
+                SceneManager.LoadScene("GameOverScreen");
             }
         }
         
     }
 
-    void DisplayTime(float timeToDisplay)
+    public void DisplayTime(float timeToDisplay)
     {
         timeToDisplay += 1;
         float minutes = Mathf.FloorToInt(timeToDisplay / 60);
