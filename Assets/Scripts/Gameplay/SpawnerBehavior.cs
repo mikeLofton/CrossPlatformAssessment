@@ -37,6 +37,19 @@ public class SpawnerBehavior : MonoBehaviour
         {
             CharacterMovementBehavior spawnedCharacter = Instantiate(_characters[(int)characterNum], transform.position, _characters[(int)characterNum].transform.rotation);
             _timer = 0.0f;
+
+            if (transform.position.x < 0)
+            {
+                spawnedCharacter.MovesRight = true;
+                spawnedCharacter.MovesLeft = false;
+            }
+            else if (transform.position.x > 0)
+            {
+                spawnedCharacter.MovesRight = false;
+                spawnedCharacter.MovesLeft = true;
+            }
+                
+
         }
         _timer += Time.deltaTime;
     }
