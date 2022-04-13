@@ -7,16 +7,13 @@ public class ScoreBehavior : MonoBehaviour
 {
     [SerializeField]
     private Text _scoreText;
-    private int _score = 0;
-
-    public int Score
-    {
-        get { return _score; }
-        set { _score = value; }
-    }
+    public static int Score = 0;
 
     private void Update()
     {
+        if (Score < 0)
+            Score = 0;
+
         _scoreText.text = $"Score: {Score}";
     }
 }

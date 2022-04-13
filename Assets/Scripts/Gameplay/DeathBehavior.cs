@@ -9,6 +9,15 @@ public class DeathBehavior : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (gameObject.tag == "RedTarget")
+            ScoreBehavior.Score += 100;
+        else if (gameObject.tag == "GoldTarget")
+            ScoreBehavior.Score += 500;
+        else if (gameObject.tag == "FirstBuddy")
+            ScoreBehavior.Score -= 100;
+        else if (gameObject.tag == "SecondBuddy")
+            ScoreBehavior.Score -= 500;
+
         Destroy(gameObject);
     }
 
