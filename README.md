@@ -13,7 +13,7 @@ You have one minute to shoot as many red and gold targets as you can. However, D
 * Shoot a Red Target to gain 100 points
 * Shoot a Gold Target to gain 500 points
 * Shoot a Green Box Buddy and lose 100 points
-* Shoot a Red Box Buddy and lose 500 points
+* Shoot a Red Box Buddy and lose 500 points  
 Try to get a high score! 
 # Controls
 * Click on targets or buddies to destroy them
