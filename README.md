@@ -22,4 +22,5 @@ Try to get a high score!
 * Click on buttons to progress
 # Known Bugs 
 * Hitting the close game button on the WebGL version will cause the game to freeze and will require the page to be reloaded. If you're in fullscreeen at this time simply hit the ESC key to back out.
+* In the PC version you can still see the main menu in the background of the shooting scene. It is not interactable just a graphical error.
 * Weird lighting in the shooting scene.
