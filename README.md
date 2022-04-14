@@ -5,8 +5,8 @@ A shooting game that's playable on multiple platforms.
 Web Game Link: https://mikelofton.github.io/CrossPlatformAssessment/Player/
 
 # How to Open Game
-* Download and extract the  zip file.
-* Within the extracted folder you'll find a file called .exe.
+* Download and extract the CPA1 zip file.
+* Within the extracted folder you'll find a file called CrossPlatformAssessment.exe.
 * Double click the .exe to run the program
 # How to Play
 You have one minute to shoot as many red and gold targets as you can. However, DON'T SHOOT THE BUDDIES!
