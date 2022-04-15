@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Handles the movement of game characters
+/// </summary>
 public class CharacterMovementBehavior : MovementBehavior
 {
     [SerializeField]
@@ -17,12 +20,18 @@ public class CharacterMovementBehavior : MovementBehavior
         set { _speed = value; }
     }
 
+    /// <summary>
+    /// True if the character can move left
+    /// </summary>
     public bool MovesLeft
     {
         get { return _movesLeft; }
         set { _movesLeft = value; }
     }
 
+    /// <summary>
+    /// True if the character can move right
+    /// </summary>
     public bool MovesRight
     {
         get { return _movesRight; }
@@ -31,7 +40,7 @@ public class CharacterMovementBehavior : MovementBehavior
 
     private void Start()
     {
-        float speedNum = Random.Range(0.5f, 11.0f);
+        float speedNum = Random.Range(0.5f, 11.0f); //Randomizes movement speed at spawn
         Speed = speedNum;
     }
 

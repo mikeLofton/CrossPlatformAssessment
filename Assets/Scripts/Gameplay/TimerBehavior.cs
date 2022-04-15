@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Controls and displays the game's timer
+/// </summary>
 public class TimerBehavior : MonoBehaviour
 {
     [SerializeField]
@@ -36,6 +39,9 @@ public class TimerBehavior : MonoBehaviour
         
     }
 
+    /// <summary>
+    /// Converts the display time to minutes, seconds format
+    /// </summary>
     public void DisplayTime(float timeToDisplay)
     {
         timeToDisplay += 1;
